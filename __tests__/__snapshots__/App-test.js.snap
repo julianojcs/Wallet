@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "marginBottom": 20,
+      "padding": 10,
+    }
+  }
+>
+  <Text>
+    Digital Wallet: 
+    0
+  </Text>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#1976d2",
+        "borderRadius": 10,
+        "marginTop": 32,
+        "paddingHorizontal": 24,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Your Balance:
+      </Text>
+      <RCTSwitch
+        accessibilityRole="switch"
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        onTintColor="red"
+        style={
+          Array [
+            Object {
+              "height": 31,
+              "width": 51,
+            },
+            Object {
+              "transform": Array [
+                Object {
+                  "scaleX": 1.2,
+                },
+                Object {
+                  "scaleY": 1.2,
+                },
+              ],
+            },
+          ]
+        }
+        tintColor="grey"
+        value={false}
+      />
+    </View>
+    <Text
+      style={
+        Object {
+          "color": "#fff",
+          "fontSize": 36,
+          "fontWeight": "bold",
+          "marginTop": 10,
+          "textAlign": "center",
+        }
+      }
+    >
+      $ --
+    </Text>
+    <TextInput
+      keyboardType="numeric"
+      onChange={[Function]}
+      placeholder="0.00"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderRadius": 8,
+          "fontSize": 24,
+          "marginVertical": 16,
+          "padding": 12,
+        }
+      }
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-evenly",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#01579b",
+            "borderRadius": 8,
+            "justifyContent": "center",
+            "margin": 16,
+            "opacity": 1,
+            "padding": 12,
+            "width": 100,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "textAlign": "center",
+            }
+          }
+        >
+          Deposit
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#01579b",
+            "borderRadius": 8,
+            "justifyContent": "center",
+            "margin": 16,
+            "opacity": 1,
+            "padding": 12,
+            "width": 100,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "textAlign": "center",
+            }
+          }
+        >
+          Withdraw
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#01579b",
+            "borderRadius": 8,
+            "justifyContent": "center",
+            "margin": 16,
+            "opacity": 1,
+            "padding": 12,
+            "width": 100,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#fff",
+              "fontSize": 16,
+              "fontWeight": "600",
+              "textAlign": "center",
+            }
+          }
+        >
+          Add
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
