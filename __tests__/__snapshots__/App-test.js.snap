@@ -11,8 +11,7 @@ exports[`renders correctly 1`] = `
   }
 >
   <Text>
-    Digital Wallet: 
-    0
+    Digital Wallet
   </Text>
   <View
     style={
@@ -178,42 +177,6 @@ exports[`renders correctly 1`] = `
           }
         >
           Withdraw
-        </Text>
-      </View>
-      <View
-        accessible={true}
-        collapsable={false}
-        focusable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        style={
-          Object {
-            "backgroundColor": "#01579b",
-            "borderRadius": 8,
-            "justifyContent": "center",
-            "margin": 16,
-            "opacity": 1,
-            "padding": 12,
-            "width": 100,
-          }
-        }
-      >
-        <Text
-          style={
-            Object {
-              "color": "#fff",
-              "fontSize": 16,
-              "fontWeight": "600",
-              "textAlign": "center",
-            }
-          }
-        >
-          Add
         </Text>
       </View>
     </View>
