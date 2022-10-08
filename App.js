@@ -34,7 +34,6 @@ const App = () => {
   const handleDeposit = () => {
     if (value) {
       const temp = parseFloat(value);
-      console.log(value);
       setBalance(balance + temp);
       setValue('');
     } else {
@@ -64,7 +63,7 @@ const App = () => {
           style={sectionInput}
           placeholder="0.00"
           value={value}
-          onChange={(text) => setValue(text)}
+          onChangeText={text => setValue(text)}
           keyboardType="numeric"
         />
         <View style={sectionButtons}>
